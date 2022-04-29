@@ -1,4 +1,4 @@
 
-### Create Conda Env                                      
+### Docker                                   
                                       
-                                      conda create -n ml_pipeline python=3.9
+                                      docker-compose -f docker-compose-LocalExecutor.yml up -d
